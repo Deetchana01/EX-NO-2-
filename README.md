@@ -16,8 +16,6 @@ To encrypt a message, one would break the message into digrams (groups of 2 lett
 ## EXAMPLE:
 ![image](https://github.com/Hemamanigandan/EX-NO-2-/assets/149653568/e6858d4f-b122-42ba-acdb-db18ec2e9675)
 
- 
-
 ## ALGORITHM:
 ```
 STEP-1: Read the plain text from the user.
@@ -26,9 +24,8 @@ STEP-3: Arrange the keyword without duplicates in a 5*5 matrix in the row order 
 STEP-4: Group the plain text in pairs and match the corresponding corner letters by forming a rectangular grid.
 STEP-5: Display the obtained cipher text.
 ```
-## PROGRAM:
-
-```
+## Program:
+~~~
 #include <stdio.h>
 #include <string.h>
 #define SIZE 5
@@ -72,8 +69,8 @@ int main()
     playfair(encrypted, decrypted, 0);
     printf("Decrypted: %s\n", decrypted);
 }
-```
+~~~
 
-## OUTPUT:
-<img width="1694" height="1013" alt="image" src="https://github.com/user-attachments/assets/2289eade-fef1-464f-aaa6-4a80ce71afd6" />
+## Output:
+<img width="1603" height="883" alt="image" src="https://github.com/user-attachments/assets/32d8b185-4c51-4b30-8b34-705b3b6ec2a3" />
 
